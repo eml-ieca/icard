@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>EML v7.0</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <script src='main.js'></script>
+    <script src="https://kit.fontawesome.com/adedcc0c17.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="parent">
+            <div class="wave-card">
+                <div class="wave-card-shape"></div>
+                <div class="wave-card-shape"></div>
+                <div class="wave-card-shape"></div>
+
+                <div class="profile-image">
+                    <img src="img/avatar.jpg" alt="Imagen de Perfil">
+                </div>
+
+                <h3 class="wave-card-title">Eduardo Muñoz López</h3>
+                <small class="wave-card-subtitle">Instructor de Tecnología 🧑‍💻</small>
+                <!-- Aquí inicia la tira de iconos de contacto -->
+                <div class="contact-icons">
+                    <a 
+                    href="#"
+                    data-value="+524612275316"
+                    data-channel="wa"
+                    class="fa-brands fa-whatsapp wa"
+                    onclick="linkDeContacto(event)"></a>
+                    <a 
+                    href="mailto:edu@eml.run" 
+                    data-value="edu@eml.run"
+                    data-channel="mail"
+                    class="fa-regular fa-envelope"
+                    onclick="linkDeContacto(event)"></a>
+                    <a 
+                    href="tel:+524612275316" 
+                    data-value="+524612275316"
+                    data-channel="tel"
+                    class="fa-solid fa-mobile-screen"
+                    onclick="linkDeContacto(event)"></a>
+                    <a 
+                    href="https://github.com/eml-ieca"
+                    target="_blank"
+                    data-value="https://github.com/eml-ieca"
+                    data-channel="gh" 
+                    class="fa-brands fa-github"
+                    onclick="linkDeContacto(event)"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
